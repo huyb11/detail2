@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELISE - ĐỊNH HƯỚNG PHONG CÁCH THỜI TRANG</title>
+  <link rel="stylesheet" href="./assests/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="middle-content">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="header-left d-flex align-items-center">
+          <div class="action-menu-responsive">
+            <div class="action nav-togger">
+              <i class="fa-solid fa-bars fs-21"></i>
+            </div>
+          </div>
+          <a href="./">
+            <strong class="logo">
+              <img src="https://elise.vn/media/logo/default/logo_color.png" alt="Elise - Exclusive" width="167"
+                height="28" />
+            </strong>
+          </a>
+        </div>
+        <div class="header-center d-flex">
+          <div class="search-form">
+            <div class="form-search d-flex align-items-center">
+              <form action="" class="form minisearch" id="search_mini_form">
+                <span class="title-search">Tìm Kiếm</span>
+                <input id="search" class="input-text" type="text" maxlength="128" />
+                <button type="submit" title="Tìm Kiếm" class="button" disabled="">
+                  <i class="fa-solid fa-magnifying-glass fs-21"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="header-right d-flex flex-end align-items-center">
+          <div class="header-phone" data-role="stringee-area">
+            <div class="stringee-call-action d-flex align-items-center"><i
+                class="fa-solid fa-phone-flip fs-21 mr-10"></i><span>Gọi Ngay</span></div>
+          </div>
+
+          <div class="header-account ">
+            <div class=" is-canvas">
+              <span class="label"><i class="fa-regular fa-user fs-21 mr-10"></i></i>Tài Khoản</span>
+            </div>
+          </div>
+
+          <div class="cart">
+            <i class="fa-solid fa-bag-shopping fs-21"></i>
+          </div>
+          <div class="follow">
+            <i class="fa-regular fa-heart fs-21 hv"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="header-wrapper-end">
+    <div class="header-canvas-menu megamenu-content" style="padding-top: 100px;">
+      <div class="close-menu"><i class="fa-solid fa-xmark"></i></div>
+      <div id="main-Menucontent" class="item-pane menu-list">
+        <div class="menu-logo"><a href="https://elise.vn/"><img src="https://elise.vn/media/logo/default/logo_color.png"
+              alt="menu logo"></a>
+        </div>
+        <div class="container-menu">
+          <ul class="list-menu">
+            <li class="item-menu">Bộ sưu tập</li>
+            <li class="item-menu">Thời trang nữ</li>
+            <li class="item-menu">Phụ kiện</li>
+            <li class="item-menu">Sale up to 50%</li>
+            <li class="item-menu">Elise store</li>
+            <li class="item-menu">Thẻ thành viên</li>
+            <li class="item-menu">Hệ thộng cửa hàng</li>
+            <li class="item-menu">Thông tin</li>
+            <li class="item-menu">ESG Activities</li>
+            <li class="item-menu">May đo đồng phục</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="canvas canvas-customer-login">
+      <div class="close"><i class="fa-solid fa-xmark"></i></i></div>
+      <div class="canvas-content-wrapper">
+        <div class="title uppercase"><span>Đăng nhập</span></div>
+        <div class="create-account">
+          <span>Bạn chưa có tài khoản?</span><a href="./register.html" class="underline">Tạo tài khoản</a>
+        </div>
+      </div>
+      <form class="form form-login myaccount-form-login" action="https://elise.vn/customer/account/loginPost/"
+        method="post" id="login-form" novalidate="novalidate">
+        <input name="form_key" type="hidden" value="LPxjP7jomw24ewTt">
+        <div class="field-control email required">
+          <input name="username" placeholder="Địa chỉ email hoặc số điện thoại của bạn" value="" autocomplete="off"
+            id="email" type="text" class="input-text" title="Email">
+        </div>
+        <div class="field-control password required">
+          <input name="password" placeholder="Mật khẩu" type="password" autocomplete="off" class="input-text" id="pass"
+            title="Mật khẩu">
+        </div>
+        <div class=" action remind">
+          <a href="" class="underline">Quên mật khẩu?</a>
+        </div>
+        <div class="field choice mgs-gdpr-checkbox d-flex flex-start" style="margin-top: 10px;">
+          <input type="checkbox" style="width: 30px;margin-top: 5px;">
+          <label for="accept_gdpr" class="label"><span>Tôi đồng ý Điều kiện - Điều khoản &amp; Chính sách bảo mật của
+              Elise.</span></label>
+        </div>
+        <div class="actions-toolbar">
+          <button type="submit" class="action btn-login uppercase" name="send" id="send2">
+            <span>Đăng nhập</span></button>
+        </div>
+        </fieldset>
+      </form>
+      <div class="myaccount-socials-login">
+        <div class="btn-login-social login-facebook uppercase">
+          <a href="#" style="text-decoration: none;"><i class="fab fa-facebook-f"></i><span>Đăng nhập bằng
+              facebook</span></a>
+        </div>
+        <div class="btn-login-social login-google uppercase">
+          <a href="#" style="text-decoration: none;"><i class="fab fa-google-plus-g"></i><span>Đăng nhập bằng
+              google</span></a>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    <div class="header-overlay"></div>
+  </section>
+  <div id="detail" style="margin-top: 120px;">
+    <div class="row product-detail-infomation-sticky-parent justify-content-center">
+      <div class="col-sm-6 col-xs-12 product-gallery-popup">
+        <div class="product-detail-media">
+          <div class="product media">
+            <div class="gallery-list">
+              <div class="product item-image imgzoom">
+                <a class="lb image-detail"
+                  data-big="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt3.jpg"><img
+                    class="img-responsive"
+                    src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt3.jpg"
+                    alt="ĐẦM LỤA HT NỀN NÂU NƠ CỔ"></a>
+              </div>
+              <div class="product item-image imgzoom">
+                <a class="lb image-detail"
+                  data-big="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt2.jpg"><img
+                    class="img-responsive"
+                    src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt2.jpg"
+                    alt="ĐẦM LỤA HT NỀN NÂU NƠ CỔ"></a>
+              </div>
+              <div class="product item-image imgzoom">
+                <a class="lb image-detail"
+                  data-big="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt4.jpg"><img
+                    class="img-responsive"
+                    src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt4.jpg"
+                    alt="ĐẦM LỤA HT NỀN NÂU NƠ CỔ"></a>
+              </div>
+              <div class="product item-image imgzoom">
+                <a class="lb image-detail"
+                  data-big="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt1.jpg"><img
+                    class="img-responsive"
+                    src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt1.jpg"
+                    alt="ĐẦM LỤA HT NỀN NÂU NƠ CỔ"></a>
+              </div>
+              <div class="product item-image imgzoom">
+                <a class="lb image-detail"
+                  data-big="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt.jpg"><img
+                    class="img-responsive"
+                    src="https://elise.vn/media/catalog/product/cache/bb52e54e5ec1828d48ae8bf7c98f9f69/f/f/ff2306103dmsipt.jpg"
+                    alt="ĐẦM LỤA HT NỀN NÂU NƠ CỔ"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xs-12 product-detail-infomation product-detail-infomation-sticky">
+        <div class="product-detail-infomation-content">
+          <div class="product-info-main">
+            <div class="product-name-label">
+              <h1 class="product-name">ĐẦM LỤA HT NỀN NÂU NƠ CỔ</h1>
+            </div>
+            <div class="product-info-price">
+              <div class="price-box price-final_price" data-role="priceBox" data-product-id="53666"
+                data-price-box="product-id-53666">
+                <span class="special-price">
+                  <span class="price-container price-final_price tax weee">
+                    <span id="product-price-53666" data-price-amount="1758400" data-price-type="finalPrice"
+                      class="price-wrapper "><span class="price">1.758.400&nbsp;VND</span></span>
+                  </span>
+                </span>
+                <span class="old-price">
+                  <span class="price-container price-final_price tax weee">
+                    <span id="old-price-53666" data-price-amount="2198000" data-price-type="oldPrice"
+                      class="price-wrapper "><span class="price">2.198.000&nbsp;VND</span></span>
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="product attribute sku">
+              <strong class="type">SKU:</strong> <span class="value" itemprop="sku">FF2306103DMSIPT</span>
+            </div>
+            <div class="line"></div>
+            <div class="product-options-wrapper" id="product-options-wrapper">
+              <div class="option-title title"><span>Kích cỡ</span></div>
+              <div class="option-list">
+                <span class="option-item">S</span>
+                <span class="option-item">M</span>
+                <span class="option-item">L</span>
+                <span class="option-item">XL</span>
+              </div>
+            </div>
+            <div class="product-options-wrapper" id="product-options-wrapper">
+              <div class="option-title title"><span>Số lượng</span></div>
+              <div class="button-inventory">
+                <i class="fa-solid fa-minus"></i>
+                <span class="mx-4">1</span>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+            <div class="button-group">
+              <div class="btn-add-cart btnn">
+                Thêm vào giỏ
+              </div>
+              <div class="btn-add btnn">
+                Thêm vào yêu thích
+              </div>
+
+            </div>
+          </div>
+          <div class="uppercase d-flex flex-column" style="margin: 32px 0">
+            <div style="margin: 8px 0"><i class=" fas fa-caret-right"></i><span style="padding: 0 8px">Hướng dẫn mua
+                hàng</span></div>
+            <div style="margin: 8px 0"><i class="fas fa-caret-right"></i><span style="padding: 0 8px">Hướng dẫn chọn
+                kích cỡ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product info detailed d-flex justify-content-between flex-column align-items-center">
+      <div class="block-title text-center uppercase">
+        <h3 class="title">Đánh giá sản phẩm</h3>
+      </div>
+      <div class="block-content mt-3">
+        <div class="message info notlogged">
+          <i class="fa-regular fa-flag"></i><span class="ms-2">Bạn cần đăng nhập để viết nhận xét. Vui lòng Đăng nhập or
+            Tạo tài khoản</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="size_guide_modal" class="size-guide-modal ">
+    <div class="modal-dialog">
+      <button class="close" type="button" data-dismiss="modal">
+        <i class="fal fa-times"></i>
+      </button>
+      <h4 class="heading-title uppercase">
+        <span class="title">Hướng dẫn chọn kích cỡ</span>
+      </h4>
+      <div class="scroll-wrapper scrollbar-inner" style="position: relative;">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p><img width="400px"
+                src="https://elise.vn/media/wysiwyg/Test/z2533970949840_ad896a5cf67ccd09591b50991eb5d85e.jpg" alt="">
+            </p>
+            <p><img width="400px" src="https://elise.vn/media/wysiwyg/ECOM/size-vn-2404.jpg" alt=""></p>
+            <p><img width="400px" src="https://elise.vn/media/wysiwyg/ECOM/bq-vn.jpg" alt=""></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
